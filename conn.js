@@ -5,7 +5,7 @@ async function connect() {
   const mongoServer = await MongoMemoryServer.create();
   const mongoUri = mongoServer.getUri();
 
-  await mongoose.connect(mongoUri, { dbName: "testingDb" });
+  await mongoose.connect(mongoUri, { dbName: "booDB" });
   console.log(`MongoDB Connected to ${mongoUri}`);
 }
 
