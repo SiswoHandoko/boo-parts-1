@@ -7,7 +7,13 @@ $ npm install
 ## Running the app (http://localhost:3000/profile/1)
 
 ```bash
-$ npm run start
+$ node app.js
+```
+
+## Automated Testing 
+Please do this after you run the app.js for do test all scenario
+```bash
+$ node test.js
 ```
 
 # Screen Shoot Feature
